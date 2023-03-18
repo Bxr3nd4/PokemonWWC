@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#logo {
+    width: 200px;
+}
+
+.OnLine {
+    display: inline-block;
+}
+
+.OnLine2{
+    display: inline-block;
+}
