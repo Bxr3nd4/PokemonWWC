@@ -1,18 +1,129 @@
 * {
     box-sizing: border-box;
-    margin: 2px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-#logo {
-    width: 200px;
+header{
+    background-color: #306BB3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
 }
 
-.OnLine {
+.HeaderNav{
+    display:flex;
+    gap: 80px;
+    list-style: none;
+}
+
+#logo{
+    width: 150%;
+    height: 55%;
+}
+
+.OnLine{
     display: inline-block;
 }
 
 .OnLine2{
     display: inline-block;
+}
+
+article{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Imag{
+    margin:50px;
+}
+
+.buttons{
+    display: flex;
+    gap:30px;
+    list-style: none;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.middlelinks{
+    display: flex;
+    gap:50px;
+    list-style: none;
+    align-items: center;
+    margin-left: 120px;
+    color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size:40px;
+}
+
+p{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.textfoot{
+    display: flex;
+    margin-right: 50px;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #306BB3;
+    list-style: none;
+    color: white;
+}
+
+.firstp{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    font-weight: medium;
+    font-size: 16px;
+
+}
+
+.secondp{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+li{
+    color:white;
+}
+ 
+.div{
+    display: flex;
+
+    flex-direction: column;
 }
