@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    background-color: #306BB3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    color: white;
+}
+
+.HeaderNav {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+#logo {
+    width: 150%;
+    height: 55%;
+}
+
+h1 {
+    position: absolute;
+    width: 471px;
+    height: 72px;
+    left: 458.48px;
+    top: 165px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #486284;
+
+}
+
+.p1 {
+    position: absolute;
+    width: 529.48px;
+    height: 67.42px;
+    left: 410.17px;
+    top: 252px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1A202C;
+}
+
+.p2 {
+    position: absolute;
+    width: 669px;
+    height: 528px;
+    left: 701px;
+    top: 356px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+#allpokemons {
+    position: absolute;
+    width: 565px;
+    height: 528px;
+    left: 69px;
+    top: 356px;
+}
+
+footer {
+    position: absolute;
+    width: 1519px;
+    left: 0px;
+    top: 956px;
+    
+    background: #306BB3;
+}
