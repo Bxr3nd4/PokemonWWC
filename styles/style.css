@@ -5,7 +5,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-header{
+header {
     background-color: #306BB3;
     display: flex;
     flex-direction: row;
@@ -13,66 +13,67 @@ header{
     padding: 12px;
 }
 
-.HeaderNav{
-    display:flex;
+.HeaderNav {
+    display: flex;
     gap: 80px;
     list-style: none;
 }
 
-#logo{
+#logo {
     width: 150%;
     height: 55%;
 }
 
-.OnLine{
+.OnLine {
     display: inline-block;
 }
 
-.OnLine2{
+.OnLine2 {
     display: inline-block;
 }
 
-article{
+article {
     display: flex;
     width: 50%;
     flex-direction: column;
     justify-content: center;
+    
 }
 
-section{
+section {
     display: flex;
     justify-content: space-between;
 }
 
-.Imag{
-    margin:50px;
+.Imag {
+    margin: 50px;
 }
 
-.buttons{
+.buttons {
     display: flex;
-    gap:30px;
+    gap: 30px;
     list-style: none;
     align-items: center;
     margin-right: 20px;
 }
 
-.middlelinks{
+.middlelinks {
     display: flex;
-    gap:50px;
+    gap: 50px;
     list-style: none;
     align-items: center;
     margin-left: 120px;
     color: black;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size:40px;
+    font-size: 40px;
 }
 
-p{
+p {
     display: flex;
     margin-left: 20px;
     justify-content: center;
@@ -80,25 +81,22 @@ p{
     font-size: 16px;
 }
 
-.textfoot{
+.textfoot {
     display: flex;
     margin-right: 50px;
     font-weight: medium;
     font-size: 16px;
 }
 
-
-
-footer{
-    display:flex;
+footer {
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: #306BB3;
     list-style: none;
     color: white;
 }
 
-.firstp{
+.firstp {
     display: flex;
     margin-left: 90px;
     margin-bottom: 40px;
@@ -108,7 +106,7 @@ footer{
 
 }
 
-.secondp{
+.secondp {
     display: flex;
     margin-top: 20px;
     margin-left: 90px;
@@ -118,12 +116,40 @@ footer{
     font-size: 16px;
 }
 
-li{
-    color:white;
+li {
+    color: white;
+    list-style: none;
+    font-size: 16px;
 }
- 
-.div{
-    display: flex;
 
+.div {
+    display: flex;
     flex-direction: column;
+}
+
+.footline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.socmedia {
+    display: inline-block;
+    padding-left: 66px;
+    padding-top: 50px;
+    color: white;
+}
+
+.textfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 66px;
+    padding-top: 66px;
+    gap: 16px;
+}
+
+.title{
+    font-size: 20px;
 }

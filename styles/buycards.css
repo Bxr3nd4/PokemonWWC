@@ -5,7 +5,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-header{
+header {
     background-color: #306BB3;
     display: flex;
     flex-direction: row;
@@ -14,28 +14,28 @@ header{
     align-items: center;
 }
 
-.HeaderNav{
-    display:flex;
+.HeaderNav {
+    display: flex;
     gap: 80px;
     list-style: none;
 }
 
-.onlinenav{
+.onlinenav {
     display: flex;
     justify-content: center;
     gap: 300px;
     flex-direction: row;
     list-style: none;
-    margin-top: 50px; 
+    margin-top: 50px;
 }
 
-#logo{
+#logo {
     width: 150%;
     height: 55%;
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #306BB3;
@@ -43,15 +43,34 @@ footer{
     color: white;
 }
 
-h1{
-    display:flex;
+h1 {
+    display: flex;
     justify-content: center;
     margin-top: 100px;
-    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    color: #486284;
+
 }
-.firstp{
+
+.firstp {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.grid{
+    display: grid;
 }
