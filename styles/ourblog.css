@@ -11,19 +11,41 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 12px;
-    align-items: center;
-    color: white;
 }
 
 .HeaderNav {
     display: flex;
     gap: 80px;
     list-style: none;
+    color: white;
 }
 
 #logo {
     width: 150%;
     height: 55%;
+}
+
+.OnLine {
+    display: inline-block;
+}
+
+.OnLine2 {
+    display: inline-block;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    margin-right: 20px;
+}
+
+li {
+    color: white;
+    list-style: none;
+    font-size: 16px;
 }
 
 h1 {
@@ -79,6 +101,7 @@ h1 {
     height: 528px;
     left: 69px;
     top: 356px;
+    margin: 80%;
 }
 
 footer {
@@ -86,6 +109,18 @@ footer {
     width: 1519px;
     left: 0px;
     top: 956px;
-    
+    justify-content: space-between;
     background: #306BB3;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-style: medium;
+    font-size: 80%;
 }

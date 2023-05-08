@@ -35,12 +35,17 @@ header {
 }
 
 footer {
+    position: absolute;
+    width: 1519px;
+    left: 0px;
+    top: 956px;
+    
+    background: #306BB3;
+}
+
+.vertical{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #306BB3;
-    list-style: none;
-    color: white;
+    flex-direction: column;
 }
 
 h1 {
