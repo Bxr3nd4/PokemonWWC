@@ -5,122 +5,130 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+/*header*/
+
+li {
+    list-style: none;
+}
+
 header {
     background-color: #306BB3;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 12px;
-}
-
-.HeaderNav {
-    display: flex;
-    gap: 80px;
-    list-style: none;
-    color: white;
-}
-
-#logo {
-    width: 150%;
-    height: 55%;
-}
-
-.OnLine {
-    display: inline-block;
-}
-
-.OnLine2 {
-    display: inline-block;
-}
-
-
-.buttons {
-    display: flex;
-    gap: 30px;
-    list-style: none;
     align-items: center;
-    margin-right: 20px;
 }
 
-li {
-    color: white;
+header > img {
+    width: 50%;
+    max-width: 150px;
+    margin-left: 3%;
+}
+
+header > div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list{
+    display: flex;
     list-style: none;
-    font-size: 16px;
+    gap: 50px;
+    align-items: center;
 }
 
+header > div > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+  background-color: white;
+  color: #306bb3;
+  border: none;
+  min-width: 82px;
+  min-height: 38px;
+  border-radius: 4px;
+}
+
+/*middle*/
 h1 {
-    position: absolute;
-    width: 471px;
-    height: 72px;
-    left: 458.48px;
-    top: 165px;
+    font-weight: 800;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 150%;
     display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
+    justify-content: center;
     color: #486284;
-
 }
 
-.p1 {
-    position: absolute;
-    width: 529.48px;
-    height: 67.42px;
-    left: 410.17px;
-    top: 252px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
+.p1{
+
     display: flex;
-    align-items: center;
-    text-align: center;
-    color: #1A202C;
+    justify-content: center;
 }
 
-.p2 {
-    position: absolute;
-    width: 669px;
-    height: 528px;
-    left: 701px;
-    top: 356px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-}
 
-#allpokemons {
-    position: absolute;
-    width: 565px;
-    height: 528px;
-    left: 69px;
-    top: 356px;
-    margin: 80%;
-}
+
+
+/*footer*/
 
 footer {
-    position: absolute;
-    width: 1519px;
-    left: 0px;
-    top: 956px;
-    justify-content: space-between;
-    background: #306BB3;
+    width: 100%;
+  display: flex;
+  background-color: #306bb3;
+  color: white;
+  justify-content: space-between;
+  padding: 50px 30px;
+  align-items: center;
 }
 
-.vertical{
+
+footer > div > img {
+    max-width: 150px;
+    max-height: 55px;
+}
+
+footer > p {
+    width: 50%;
+}
+
+.redes {
+    width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
-ul{
+.icons{
     display: flex;
-    list-style: none;
-    font-style: medium;
-    font-size: 80%;
+    gap: 21px;
+    font-size: 30px;
+}
+
+footer > div .icons > a {
+    color: white;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.links > ul > li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
 }
