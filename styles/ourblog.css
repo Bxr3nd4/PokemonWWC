@@ -56,18 +56,39 @@ button {
 
 /*middle*/
 h1 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 40px;
     font-style: normal;
     display: flex;
     justify-content: center;
     color: #486284;
+    margin-top: 50px;
 }
 
 .p1{
-
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+
+#allpokemons{
+    margin: 50px;
+
+
+}
+
+.p2{
+    position: absolute;
+    width: 669px;
+    height: 528px;
+    left: 701px;
+    top: 250px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #1A202C;
 }
 
 
