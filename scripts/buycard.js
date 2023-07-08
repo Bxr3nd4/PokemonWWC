@@ -1,6 +1,4 @@
-
-
-let url = "https://pokeapi.co/api/v2/";
+let url = "https://pokeapi.co/api/v2/pokemon";
 
 const getpokemon = async() => {
     try {
@@ -8,7 +6,7 @@ const getpokemon = async() => {
         const data = await res.json();
         data.results.forEach(async(pokemon) => {
             const respons = await fetch(pokemon.url);
-            const dataPokemon = respons.json();
+            const dataPokemon = await respons.json();
 
             const [type1,type2]= dataPokemon.types.map(
                 (typePokemon) => typePokemon.type.name
@@ -16,7 +14,7 @@ const getpokemon = async() => {
 
             const container = document.querySelector('.container');
 
-            let pokeCard = document.createEelemnt('div');
+            let pokeCard = document.createElement('div');
             pokeCard.className = 'pokeCard';
             pokeCard.innerHTML = `
             <div class = "headerCard">

@@ -159,5 +159,11 @@ footer > div .icons > a {
 #bdark {
     background-color: #1A202C;
     color: #fff;
-  }
+}
+
+.darkmode.linkmain> main > section> a{
+    color: #fff;
+}
+
+
   

@@ -6,6 +6,7 @@ load();
 bdark.addEventListener('click', e => {
     body.classList.toggle('darkmode');
     store(body.classList.contains('darkmode'));
+    console.log(localStorage);
 });
 
 function load() {

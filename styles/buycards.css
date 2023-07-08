@@ -159,10 +159,6 @@ section {
     gap: 30px;
 }
   
-
-
-
-
 .navFilter {
     display: flex;
     justify-content: space-around;
@@ -310,7 +306,7 @@ footer > div .icons > a {
 
 }
 
-  /* Estilos para el modo oscuro */
+/* Estilos para el modo oscuro */
   .darkmode {
     background-color: #1A202C;
     color: #fff;
@@ -319,11 +315,26 @@ footer > div .icons > a {
 .darkmode #bdark {
     background-color: #fff;
     color: #1A202C;
-  }
+}
   
-  /* Estilos para el modo claro */
+/* Estilos para el modo claro */
 #bdark {
     background-color: #1A202C;
     color: #fff;
-  }
+}
 
+.pokeCard.hidden{
+    display: none;
+}
+
+.showmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 0 20px;
+}
+.type{
+    list-style: none;
+}
