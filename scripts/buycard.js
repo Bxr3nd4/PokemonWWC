@@ -24,7 +24,7 @@ const getpokemon = async() => {
 
             <img class = "imgPoke" src = "${dataPokemon.sprites.other["home"].front_default}">
             <div class="buybtn">
-                <p>Exp ${dataPokemon.base_experience}</p>
+                <p class="xp" >Exp ${dataPokemon.base_experience}</p>
                 <button>Buy</button>
             </div>
 

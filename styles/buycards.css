@@ -288,24 +288,6 @@ footer > div .icons > a {
     font-size: 16px;
 }
 
-.showmorecards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 35px;
-    gap: 0 36px;
-}
-
-.showmorecards2{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: right;
-    margin: 30px;
-
-}
-
 .pokeCard.hidden{
     display: none;
 }
@@ -316,7 +298,7 @@ footer > div .icons > a {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    gap: 0 20px;
+
 }
 .type{
     list-style: none;
@@ -332,5 +314,10 @@ footer > div .icons > a {
     display: flex;
     justify-content: space-between;
     margin: 15px;
+}
+
+.xp{
+    display: flex;
+    align-items: center;
 
 }
