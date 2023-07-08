@@ -306,23 +306,6 @@ footer > div .icons > a {
 
 }
 
-/* Estilos para el modo oscuro */
-  .darkmode {
-    background-color: #1A202C;
-    color: #fff;
-  }
-  
-.darkmode #bdark {
-    background-color: #fff;
-    color: #1A202C;
-}
-  
-/* Estilos para el modo claro */
-#bdark {
-    background-color: #1A202C;
-    color: #fff;
-}
-
 .pokeCard.hidden{
     display: none;
 }
@@ -337,4 +320,17 @@ footer > div .icons > a {
 }
 .type{
     list-style: none;
+}
+
+.buybtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.headerCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
 }

@@ -144,26 +144,7 @@ footer > div .icons > a {
     font-size: 16px;
 }
 
-  /* Estilos para el modo oscuro */
-.darkmode {
-    background-color: #1A202C;
-    color: #fff;
-  }
-  
-.darkmode #bdark {
-    background-color: #fff;
-    color: #1A202C;
-  }
-  
-  /* Estilos para el modo claro */
-#bdark {
-    background-color: #1A202C;
-    color: #fff;
-}
 
-.darkmode.linkmain> main > section> a{
-    color: #fff;
-}
 
 
   

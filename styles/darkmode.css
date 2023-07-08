@@ -1,0 +1,20 @@
+body.dark_mode {
+    background-color: #1A202C;;
+    color: #ffffff;
+  }
+  
+.dark_mode>main>section>ul>li>a{
+    color: white;
+}
+.grid{
+  color: #1A202C;;
+}
+
+.dark_mode>main>section>ul>li:hover {
+  border-bottom: 2px solid white; 
+  font-weight: bold; 
+}
+
+.colortitle{
+  color: white;
+}
