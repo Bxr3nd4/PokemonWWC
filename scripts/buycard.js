@@ -36,7 +36,7 @@ const getpokemon = async() => {
             
         });
     }catch (error){
-        alert("Error");
+        alert("Error, checkea el codigo :D");
     }
 }
 
