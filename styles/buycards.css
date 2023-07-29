@@ -253,15 +253,12 @@ footer > div .icons > a {
 }
 
 .showcard{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    padding: 15px;
     background-color: #306BB3;
     color: white;
     border-radius: 4px;
-    padding: 0px 20px;
+    list-style: none;
+    margin: 20px;
 }
 
 
@@ -294,5 +291,5 @@ footer > div .icons > a {
     font-weight: 300;
     margin: 80px;
     color:#486284 ;
-
 }
+
