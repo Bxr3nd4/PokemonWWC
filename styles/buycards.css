@@ -22,7 +22,7 @@ header {
 
 button {
     background-color: white;
-    color: #306bb3;
+    color: #306BB3;
     border: none;
     min-width: 82px;
     min-height: 38px;
@@ -36,6 +36,10 @@ button {
     flex-direction: row;
     list-style: none;
     margin-top: 50px;
+}
+
+.type{
+    list-style: none;
 }
 
 #logo {
@@ -52,51 +56,17 @@ footer {
     flex-direction: column;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 150%;
-    color: #486284;
-
-}
-
-.firstp {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: black;
-}
-
 ul {
     list-style: none;
 }
 
 .grid{
     display: grid;
-}*{box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Plus Jakarta Sans", sans-serif;
 }
+
 
 li {
     list-style: none;
-}
-
-header {background-color: #306bb3;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center
 }
 
 header > img {
@@ -122,21 +92,6 @@ header > div {
 header > div > nav > ul > li > a {
     color: white;
     text-decoration: none;
-}
-
-main>h2 {
-    text-align: center;
-    color: #486284;
-    font-size: 3rem;
-    margin-top: 50px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-}
-  
-main>p {
-    text-align: center;
-    margin-top: 30px;
 }
   
 .container_select_type {
@@ -192,6 +147,11 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #1A202C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .imgPoke{
@@ -292,17 +252,18 @@ footer > div .icons > a {
     display: none;
 }
 
-.showmore{
+.showcard{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 20px;
+    background-color: #306BB3;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 20px;
+}
 
-}
-.type{
-    list-style: none;
-}
 
 .buybtn{
     display: flex;
@@ -319,5 +280,19 @@ footer > div .icons > a {
 .xp{
     display: flex;
     align-items: center;
+}
+
+.bcards{
+    background-color: #306BB3;
+    color: white;
+}
+
+#pandh{
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 80px;
+    color:#486284 ;
 
 }
